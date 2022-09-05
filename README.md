@@ -1,0 +1,6 @@
+- Create a Decentralised NFT marketplace
+    - `listItem`
+    - `buyItem`
+    - `cancelItem`
+    - `updateListing`
+    - `withdrawProceeds`
