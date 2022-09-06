@@ -18,19 +18,19 @@ const networkConfig = {
 };
 
 const developmentChains = ["hardhat", "localhost"];
-// const frontEndContractsFile =
-//   "../nextjs-nft-marketplace-moralis-fcc/constants/networkMapping.json";
-// const frontEndContractsFile2 =
-//   "../nextjs-nft-marketplace-thegraph-fcc/constants/networkMapping.json";
-// const frontEndAbiLocation = "../nextjs-nft-marketplace-moralis-fcc/constants/";
-// const frontEndAbiLocation2 =
-//   "../nextjs-nft-marketplace-thegraph-fcc/constants/";
+const frontEndContractsFile =
+  "../nextjs-moralis-nft-marketplace/constants/networkMapping.json";
+const frontEndContractsFile2 =
+  "../nextjs-nft-marketplace-thegraph-fcc/constants/networkMapping.json";
+const frontEndAbiLocation = "../nextjs-moralis-nft-marketplace/constants/";
+const frontEndAbiLocation2 =
+  "../nextjs-nft-marketplace-thegraph-fcc/constants/";
 
 module.exports = {
   networkConfig,
   developmentChains,
-  // frontEndContractsFile,
-  // frontEndContractsFile2,
-  // frontEndAbiLocation,
-  // frontEndAbiLocation2,
+  frontEndContractsFile,
+  frontEndContractsFile2,
+  frontEndAbiLocation,
+  frontEndAbiLocation2,
 };
